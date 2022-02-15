@@ -50,11 +50,13 @@ Assistive Tech (AT) will tell the user something like this:
 
 * "User Menu, collapsed, summary button"
 * "User menu, collapsed, disclosure triangle"
+* "User Menu button collapsed"
 
 Once you press the button (technically here the summary element, although the entire elements stays focused), it will announce something like:
 
 * "User menu, expanded, summary button"
 * "User Menu, expanded, disclosure triangle"
+* "User Menu button expanded"
 
 You can then press TAB (or VO + TAB in Safari) to navigate to the next interactive element, which in this case would be the "Home" link and would be read (in most cases) like, "list with three items. home, link."
 
