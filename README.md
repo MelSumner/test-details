@@ -62,8 +62,8 @@ Technically this works, even if it's a bit confusing to use with a screen-reader
 
 If I use my keyboard shortcuts (VO + U, then left/right arrow key through the lists)
 
-I will see the links inside of the `details` element in the "links" list
-I will see the summary inside of the form elements list but only if I am in Chrome- Safari does not have this same list.
+I will see/hear the links inside of the `details` element in the "links" list
+I will see/hear the summary inside of the form elements list but only if I am in Chrome- Safari does not have this same list.
 
 Nothing associates the two or combines them.
 
