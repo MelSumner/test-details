@@ -48,13 +48,13 @@ I tried this in these combinations:
 
 Assistive Tech (AT) will tell the user something like this:
 
-"User Menu, collapsed, summary button"
-"User menu, collapsed, disclosure triangle"
+* "User Menu, collapsed, summary button"
+* "User menu, collapsed, disclosure triangle"
 
 Once you press the button (technically here the summary element, although the entire elements stays focused), it will announce something like:
 
-"User menu, expanded, summary button"
-"User Menu, expanded, disclosure triangle"
+* "User menu, expanded, summary button"
+* "User Menu, expanded, disclosure triangle"
 
 You can then press TAB (or VO + TAB in Safari) to navigate to the next interactive element, which in this case would be the "Home" link and would be read (in most cases) like, "list with three items. home, link."
 
@@ -63,7 +63,7 @@ Technically this works, even if it's a bit confusing to use with a screen-reader
 If I use my keyboard shortcuts (VO + U, then left/right arrow key through the lists)
 
 I will see the links inside of the `details` element in the "links" list
-I will see the summary inside of the Forms/Interactive elements list (since technically it's a button)
+I will see the summary inside of the form elements list but only if I am in Chrome- Safari does not have this same list.
 
 Nothing associates the two or combines them.
 
