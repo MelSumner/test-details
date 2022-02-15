@@ -1,7 +1,18 @@
 {{page-title "TestDetails"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+<header>
+  <NavigationNarrator/>
+  <h1>So, Details?</h1>
+  <details>
+    <summary>User Menu</summary>
+    <ul>
+      <li><LinkTo @route="index">Home</LinkTo></li>
+      <li><LinkTo @route="alpha">Alpha</LinkTo></li>
+      <li><LinkTo @route="bravo">Bravo</LinkTo></li>
+      <li><LinkTo @route="charlie">Charlie</LinkTo></li>
+    </ul>
+  </details>
+</header>
+<main id="main">
+  <p>The purpose of this site is to test using a details element with assistive tech.</p>
 {{outlet}}
+</main>
