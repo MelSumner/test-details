@@ -67,6 +67,6 @@ If I use my keyboard shortcuts (VO + U, then left/right arrow key through the li
 * I will see/hear the links inside of the `details` element in the "links" list
 * I will see/hear the summary inside of the form elements list but only if I am in Chrome- Safari does not have this same list.
 
-Nothing associates the two or combines them.
+**Nothing associates the two or combines them.** This is, I think, the crux of the issue.
 
 Unfortunately, a11y testing is not throwing an error right now for no-nested-interactive elements, so there's no indication that doing this is harmful or undesired. /shrug
